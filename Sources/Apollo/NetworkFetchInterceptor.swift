@@ -41,10 +41,6 @@ public class NetworkFetchInterceptor: ApolloInterceptor, Cancellable {
         self.currentTask.mutate { $0 = nil }
       }
       
-      guard chain.isNotCancelled else {
-        return
-      }
-      
       switch result {
       case .failure(let error):
         chain.handleErrorAsync(error,
