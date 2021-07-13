@@ -95,6 +95,21 @@ apollo.cacheKeyForObject = { $0["id"] }
 ```
 
 > **NOTE:** In some cases, just using `cacheKeyForObject` is not enough for your application UI to update correctly. For example, if you want to add something to a list of objects without refetching the entire list, or if there are some objects that to which you can't assign an object identifier, Apollo cannot automatically update existing queries for you.
+> 
+
+## Cache normalization concepts
+
+There are 2 primary ways you will want to manually update the cache. Either you'll want to update the cache for a query, or you will want to update a cached object directly.
+
+Manual Scenario A
+1. You use the id of the object (after setting up the afore mentioned ```swift apollo.cacheKeyForObject = { $0["id"] } ```) to fetch and change the object. This will update any query where this object is referenced. This works well for updating queries which reference this object, but in the case of a create mutation, your queries won't contain this object to update. Which leads us into Scenario B.
+
+Manual Scenario B
+1. You fire off a mutation which creates a new object.
+2. You may then want to update the cache for a List that should contain this new object. This is a bit fiddly at the moment, as Droid for CreateDroidsMutation is strongly typed: CreateDroidsMutation.Droid. When inserting this object into the cache for ListDroidsQuery you need to init a ListDroidsQuery.Droid object from a CreateDroidsMutation.Droid or the types won't match. Your alternative to this is to manually refectch queries on a mutation which will trigger any watchers to update.
+
+Where you may not need to manually update the cache:
+If you use fragments which contain ID's then a query which returns or mutates this fragment and returns a new state for this object will automatically be merged into your cache and any query which references that object will be updated. It may therefore be advantageous to plan your schemas so Fragments are reused in List / Detail queries and then the same Fragment is returned as the result of a mutation.
 
 ## Specifying a cache policy
 
