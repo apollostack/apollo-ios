@@ -10,14 +10,8 @@
 		54DDB0921EA045870009DD99 /* InMemoryNormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DDB0911EA045870009DD99 /* InMemoryNormalizedCache.swift */; };
 		5AC6CA4322AAF7B200B7C94D /* GraphQLHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6CA4222AAF7B200B7C94D /* GraphQLHTTPMethod.swift */; };
 		5BB2C0232380836100774170 /* VersionNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB2C0222380836100774170 /* VersionNumberTests.swift */; };
-		9B0E4718240AF6D70093BDA7 /* ASTVariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E4717240AF6D70093BDA7 /* ASTVariableType.swift */; };
-		9B0E471A240AFA060093BDA7 /* VariableToSwiftTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E4719240AFA060093BDA7 /* VariableToSwiftTypeTests.swift */; };
-		9B0E471C240B167C0093BDA7 /* String+Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E471B240B167C0093BDA7 /* String+Apollo.swift */; };
-		9B0E471E240B239D0093BDA7 /* ASTEnumValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E471D240B239D0093BDA7 /* ASTEnumValue.swift */; };
 		9B1CCDD92360F02C007C9032 /* Bundle+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CCDD82360F02C007C9032 /* Bundle+Helpers.swift */; };
 		9B21FD752422C29D00998B5C /* GraphQLFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21FD742422C29D00998B5C /* GraphQLFileTests.swift */; };
-		9B21FD782424305700998B5C /* ExpectedEnumWithDifferentCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F05F2416F80C00E97318 /* ExpectedEnumWithDifferentCases.swift */; };
-		9B21FD792424305E00998B5C /* ExpectedEnumWithSanitizedCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F063241703B200E97318 /* ExpectedEnumWithSanitizedCases.swift */; };
 		9B260BEB245A020300562176 /* ApolloInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B260BEA245A020300562176 /* ApolloInterceptor.swift */; };
 		9B260BF1245A025400562176 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B260BF0245A025400562176 /* HTTPRequest.swift */; };
 		9B260BF3245A026F00562176 /* RequestChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B260BF2245A026F00562176 /* RequestChain.swift */; };
@@ -34,55 +28,17 @@
 		9B2DFBC724E1FA4800ED3AE6 /* UploadAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2DFBC524E1FA3E00ED3AE6 /* UploadAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2DFBCD24E201A800ED3AE6 /* UploadAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2DFBB624E1FA0D00ED3AE6 /* UploadAPI.framework */; };
 		9B2DFBCF24E201DD00ED3AE6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2DFBCE24E201DD00ED3AE6 /* API.swift */; };
-		9B3D70F92488340400D8BAF4 /* ASTUnionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D70F82488340400D8BAF4 /* ASTUnionType.swift */; };
-		9B3D70FA2488340C00D8BAF4 /* ASTInterfaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D70F6248833CB00D8BAF4 /* ASTInterfaceType.swift */; };
-		9B3D70FC2488388300D8BAF4 /* InterfaceEnumGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D70FB2488388300D8BAF4 /* InterfaceEnumGenerator.swift */; };
-		9B3D70FE2488388E00D8BAF4 /* UnionEnumGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D70FD2488388E00D8BAF4 /* UnionEnumGenerator.swift */; };
-		9B3D71032488448F00D8BAF4 /* IntefaceEnumGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D71022488448F00D8BAF4 /* IntefaceEnumGenerationTests.swift */; };
-		9B3D7105248847D400D8BAF4 /* ExpectedSanitizedCharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D7104248847D400D8BAF4 /* ExpectedSanitizedCharacterType.swift */; };
-		9B3D71072488495900D8BAF4 /* ExpectedNoCasesCharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D71062488495900D8BAF4 /* ExpectedNoCasesCharacterType.swift */; };
-		9B3D710924884A1500D8BAF4 /* ExpectedNoModifierCharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D710824884A1500D8BAF4 /* ExpectedNoModifierCharacterType.swift */; };
-		9B3D710B24884B2100D8BAF4 /* ExpectedEpisodeEnumWithoutModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D710A24884B2100D8BAF4 /* ExpectedEpisodeEnumWithoutModifier.swift */; };
-		9B3D710F24884D7500D8BAF4 /* ExpectedSearchResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D710E24884D7500D8BAF4 /* ExpectedSearchResultType.swift */; };
-		9B3D711124884E1B00D8BAF4 /* UnionEnumGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D711024884E1B00D8BAF4 /* UnionEnumGenerationTests.swift */; };
-		9B3D711324889DB200D8BAF4 /* ExpectedSanitizedSearchResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D711224889DB200D8BAF4 /* ExpectedSanitizedSearchResultType.swift */; };
-		9B3D711524889EB000D8BAF4 /* ExpectedNoCasesSearchResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D711424889EB000D8BAF4 /* ExpectedNoCasesSearchResultType.swift */; };
-		9B3D711724889EF200D8BAF4 /* ExpectedNoModifierSearchResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D711624889EF200D8BAF4 /* ExpectedNoModifierSearchResultType.swift */; };
-		9B3FB4F124D9ED01002C8B1B /* ExpectedCharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D71002488429E00D8BAF4 /* ExpectedCharacterType.swift */; };
 		9B455CDF2492D05E002255A9 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6CB23D238077B60007259D /* Atomic.swift */; };
 		9B455CE52492D0A3002255A9 /* ApolloExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B455CE22492D0A3002255A9 /* ApolloExtension.swift */; };
-		9B455CE62492D0A3002255A9 /* OptionalBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B455CE32492D0A3002255A9 /* OptionalBoolean.swift */; };
 		9B455CE72492D0A3002255A9 /* Collection+Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B455CE42492D0A3002255A9 /* Collection+Apollo.swift */; };
 		9B455CEB2492FB03002255A9 /* String+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B455CEA2492FB03002255A9 /* String+SHA.swift */; };
-		9B47515D2575AA4A0001FB87 /* InflectorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9B47515C2575AA4A0001FB87 /* InflectorKit */; };
-		9B47518D2575AA850001FB87 /* Pluralizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47516D2575AA690001FB87 /* Pluralizer.swift */; };
-		9B4751AD2575B5070001FB87 /* PluralizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4751AC2575B5070001FB87 /* PluralizerTests.swift */; };
 		9B4F453F244A27B900C2CF7D /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F453E244A27B900C2CF7D /* URLSessionClient.swift */; };
 		9B518C87235F819E004C426D /* CLIDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518C85235F8125004C426D /* CLIDownloader.swift */; };
 		9B518C8C235F8B5F004C426D /* ApolloFilePathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518C8A235F8B05004C426D /* ApolloFilePathHelper.swift */; };
 		9B518C8D235F8B9E004C426D /* CLIDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518C88235F8AD4004C426D /* CLIDownloaderTests.swift */; };
 		9B554CC4247DC29A002F452A /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554CC3247DC29A002F452A /* TaskData.swift */; };
-		9B5A1EFC243528AA00F066BB /* InputObjectGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A1EFB243528AA00F066BB /* InputObjectGenerationTests.swift */; };
-		9B5A1EFD24352AC100F066BB /* ExpectedReviewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F06C241C646700E97318 /* ExpectedReviewInput.swift */; };
-		9B5A1EFE24352AED00F066BB /* ExpectedColorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F06A241C643000E97318 /* ExpectedColorInput.swift */; };
-		9B5A1F002435356400F066BB /* ExpectedColorInputNoModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A1EFF2435356400F066BB /* ExpectedColorInputNoModifier.swift */; };
 		9B64F6762354D219002D1BB5 /* URL+QueryDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64F6752354D219002D1BB5 /* URL+QueryDict.swift */; };
-		9B6835342460B47900337AE6 /* ASTVariableType+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6835322460B32A00337AE6 /* ASTVariableType+TestHelpers.swift */; };
-		9B683538246310D400337AE6 /* ExpectedReviewInputNoModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B683537246310D400337AE6 /* ExpectedReviewInputNoModifier.swift */; };
-		9B68F03B240D8D1800E97318 /* CodegenExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F03A240D8D1800E97318 /* CodegenExtensionTests.swift */; };
-		9B68F03D240ED3B300E97318 /* ASTCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F03C240ED3B300E97318 /* ASTCondition.swift */; };
-		9B68F03F240F3B0E00E97318 /* CodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F03E240F3B0E00E97318 /* CodeGenerator.swift */; };
-		9B68F04A24130D6500E97318 /* EnumGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F04924130D6500E97318 /* EnumGenerator.swift */; };
-		9B68F04D2413239100E97318 /* Stencil in Frameworks */ = {isa = PBXBuildFile; productRef = 9B68F04C2413239100E97318 /* Stencil */; };
-		9B68F04F2413271D00E97318 /* EnumGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F04E2413271D00E97318 /* EnumGenerationTests.swift */; };
-		9B68F0532415B1C800E97318 /* ExpectedEpisodeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F0522415B1C800E97318 /* ExpectedEpisodeEnum.swift */; };
 		9B68F0552416B33300E97318 /* LineByLineComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F0542416B33300E97318 /* LineByLineComparison.swift */; };
-		9B68F0572416B5F700E97318 /* ExpectedEpisodeEnumNoDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F0562416B5F700E97318 /* ExpectedEpisodeEnumNoDescription.swift */; };
-		9B68F0592416BA7700E97318 /* ExpectedEnumWithNoCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F0582416BA7700E97318 /* ExpectedEnumWithNoCases.swift */; };
-		9B68F05B2416BCF100E97318 /* ExpectedEnumOmittingDeprecatedCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F05A2416BCF100E97318 /* ExpectedEnumOmittingDeprecatedCases.swift */; };
-		9B68F05D2416BDCF00E97318 /* ExpectedEnumWithDeprecatedCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F05C2416BDCF00E97318 /* ExpectedEnumWithDeprecatedCases.swift */; };
-		9B68F06524198D1000E97318 /* InputObjectGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F0612417002900E97318 /* InputObjectGenerator.swift */; };
-		9B68F068241ADA9D00E97318 /* Dictionary+Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F066241AD98C00E97318 /* Dictionary+Apollo.swift */; };
 		9B708AAD2305884500604A11 /* ApolloClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B708AAC2305884500604A11 /* ApolloClientProtocol.swift */; };
 		9B78C71E2326E86E000C8C32 /* ErrorGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78C71B2326E859000C8C32 /* ErrorGenerationTests.swift */; };
 		9B7B6F59233C287200F32205 /* ApolloCodegen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B6F57233C287100F32205 /* ApolloCodegen.swift */; };
@@ -135,15 +91,6 @@
 		9BCF0CE623FC9D7B0031D2A2 /* ApolloTestSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCF0CDA23FC9CA50031D2A2 /* ApolloTestSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BCF0D0123FC9F060031D2A2 /* StarWarsAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCF0CF123FC9F060031D2A2 /* StarWarsAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BCF0D0223FC9F060031D2A2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF0CFC23FC9F060031D2A2 /* API.swift */; };
-		9BD681272405F0CB000874CB /* ASTOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD681262405F0CB000874CB /* ASTOutput.swift */; };
-		9BD681292405F149000874CB /* ASTTypeUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD681282405F149000874CB /* ASTTypeUsed.swift */; };
-		9BD6812B2405F410000874CB /* ASTFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6812A2405F410000874CB /* ASTFragment.swift */; };
-		9BD6812F2405F665000874CB /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6812E2405F665000874CB /* JSON.swift */; };
-		9BD681362405F725000874CB /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD681352405F725000874CB /* JSONTests.swift */; };
-		9BD681382405F7F6000874CB /* JSONTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD681372405F7F6000874CB /* JSONTestHelpers.swift */; };
-		9BD6813B2405FA56000874CB /* ASTOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD681392405F95B000874CB /* ASTOperation.swift */; };
-		9BD6813E2405FAC8000874CB /* ASTField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6813C2405FAB7000874CB /* ASTField.swift */; };
-		9BD681422406F516000874CB /* ASTParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD681412406F516000874CB /* ASTParsingTests.swift */; };
 		9BDE43D122C6655300FD7C7F /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE43D022C6655200FD7C7F /* Cancellable.swift */; };
 		9BDE43DF22C6708600FD7C7F /* GraphQLHTTPRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE43DE22C6708600FD7C7F /* GraphQLHTTPRequestError.swift */; };
 		9BDF201323FDC37600153E2B /* GitHubAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDF200C23FDC37600153E2B /* GitHubAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -245,10 +192,6 @@
 		DE0586392669985000265760 /* Dictionary+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0586382669985000265760 /* Dictionary+Helpers.swift */; };
 		DE3A2816268BCE6700A1BDC8 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = DE3A2815268BCE6700A1BDC8 /* Starscream */; };
 		DE3C7974260A646300D2F4FF /* dist in Resources */ = {isa = PBXBuildFile; fileRef = DE3C7973260A646300D2F4FF /* dist */; };
-		DE3C7A94260A6C1000D2F4FF /* ApolloUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B68353E2463481A00337AE6 /* ApolloUtils.framework */; };
-		DE3C7A95260A6C1000D2F4FF /* ApolloUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B68353E2463481A00337AE6 /* ApolloUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DE3C7B4A260A73D800D2F4FF /* AnimalKingdomAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3C79A9260A6ACD00D2F4FF /* AnimalKingdomAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3C7B4B260A73F900D2F4FF /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = DE3C7AB9260A6D3E00D2F4FF /* schema.graphqls */; };
 		DE56DC232683B2020090D6E4 /* DefaultInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56DC222683B2020090D6E4 /* DefaultInterceptorProvider.swift */; };
 		DE674D9D261CEEE4000E8FC8 /* c.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B2061172591B3550020D1E0 /* c.txt */; };
 		DE674D9E261CEEE4000E8FC8 /* b.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B2061182591B3550020D1E0 /* b.txt */; };
@@ -429,13 +372,6 @@
 			remoteGlobalIDString = DE058606266978A100265760;
 			remoteInfo = ApolloModels;
 		};
-		DE3C7A96260A6C1000D2F4FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B68353D2463481A00337AE6;
-			remoteInfo = ApolloCore;
-		};
 		DE6B15B226152BE10068D642 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
@@ -541,17 +477,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE3C7A98260A6C1000D2F4FF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DE3C7A95260A6C1000D2F4FF /* ApolloUtils.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -568,10 +493,6 @@
 		90690D2222433C2800FC2E54 /* Apollo-Target-GitHubAPI.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-GitHubAPI.xcconfig"; sourceTree = "<group>"; };
 		90690D2422433C8000FC2E54 /* Apollo-Target-PerformanceTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-PerformanceTests.xcconfig"; sourceTree = "<group>"; };
 		90690D2522433CAF00FC2E54 /* Apollo-Target-TestSupport.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-TestSupport.xcconfig"; sourceTree = "<group>"; };
-		9B0E4717240AF6D70093BDA7 /* ASTVariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTVariableType.swift; sourceTree = "<group>"; };
-		9B0E4719240AFA060093BDA7 /* VariableToSwiftTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableToSwiftTypeTests.swift; sourceTree = "<group>"; };
-		9B0E471B240B167C0093BDA7 /* String+Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Apollo.swift"; sourceTree = "<group>"; };
-		9B0E471D240B239D0093BDA7 /* ASTEnumValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTEnumValue.swift; sourceTree = "<group>"; };
 		9B1CCDD82360F02C007C9032 /* Bundle+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Helpers.swift"; sourceTree = "<group>"; };
 		9B2061172591B3550020D1E0 /* c.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c.txt; sourceTree = "<group>"; };
 		9B2061182591B3550020D1E0 /* b.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = b.txt; sourceTree = "<group>"; };
@@ -624,27 +545,9 @@
 		9B2DFBC824E1FA7E00ED3AE6 /* Apollo-Target-UploadAPI.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-UploadAPI.xcconfig"; sourceTree = "<group>"; };
 		9B2DFBCA24E2016800ED3AE6 /* UploadAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UploadAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2DFBCE24E201DD00ED3AE6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		9B3D70F6248833CB00D8BAF4 /* ASTInterfaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTInterfaceType.swift; sourceTree = "<group>"; };
-		9B3D70F82488340400D8BAF4 /* ASTUnionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTUnionType.swift; sourceTree = "<group>"; };
-		9B3D70FB2488388300D8BAF4 /* InterfaceEnumGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceEnumGenerator.swift; sourceTree = "<group>"; };
-		9B3D70FD2488388E00D8BAF4 /* UnionEnumGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionEnumGenerator.swift; sourceTree = "<group>"; };
-		9B3D71002488429E00D8BAF4 /* ExpectedCharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedCharacterType.swift; sourceTree = "<group>"; };
-		9B3D71022488448F00D8BAF4 /* IntefaceEnumGenerationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntefaceEnumGenerationTests.swift; sourceTree = "<group>"; };
-		9B3D7104248847D400D8BAF4 /* ExpectedSanitizedCharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedSanitizedCharacterType.swift; sourceTree = "<group>"; };
-		9B3D71062488495900D8BAF4 /* ExpectedNoCasesCharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedNoCasesCharacterType.swift; sourceTree = "<group>"; };
-		9B3D710824884A1500D8BAF4 /* ExpectedNoModifierCharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedNoModifierCharacterType.swift; sourceTree = "<group>"; };
-		9B3D710A24884B2100D8BAF4 /* ExpectedEpisodeEnumWithoutModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEpisodeEnumWithoutModifier.swift; sourceTree = "<group>"; };
-		9B3D710E24884D7500D8BAF4 /* ExpectedSearchResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedSearchResultType.swift; sourceTree = "<group>"; };
-		9B3D711024884E1B00D8BAF4 /* UnionEnumGenerationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionEnumGenerationTests.swift; sourceTree = "<group>"; };
-		9B3D711224889DB200D8BAF4 /* ExpectedSanitizedSearchResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedSanitizedSearchResultType.swift; sourceTree = "<group>"; };
-		9B3D711424889EB000D8BAF4 /* ExpectedNoCasesSearchResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedNoCasesSearchResultType.swift; sourceTree = "<group>"; };
-		9B3D711624889EF200D8BAF4 /* ExpectedNoModifierSearchResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedNoModifierSearchResultType.swift; sourceTree = "<group>"; };
 		9B455CE22492D0A3002255A9 /* ApolloExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApolloExtension.swift; sourceTree = "<group>"; };
-		9B455CE32492D0A3002255A9 /* OptionalBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalBoolean.swift; sourceTree = "<group>"; };
 		9B455CE42492D0A3002255A9 /* Collection+Apollo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Apollo.swift"; sourceTree = "<group>"; };
 		9B455CEA2492FB03002255A9 /* String+SHA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SHA.swift"; sourceTree = "<group>"; };
-		9B47516D2575AA690001FB87 /* Pluralizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pluralizer.swift; sourceTree = "<group>"; };
-		9B4751AC2575B5070001FB87 /* PluralizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralizerTests.swift; sourceTree = "<group>"; };
 		9B4AA8AD239EFDC9003E1300 /* Apollo-Target-CodegenTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-CodegenTests.xcconfig"; sourceTree = "<group>"; };
 		9B4F453E244A27B900C2CF7D /* URLSessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
 		9B4F4540244A2A9200C2CF7D /* HTTPBinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBinAPI.swift; sourceTree = "<group>"; };
@@ -654,31 +557,11 @@
 		9B518C8A235F8B05004C426D /* ApolloFilePathHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloFilePathHelper.swift; sourceTree = "<group>"; };
 		9B554CC3247DC29A002F452A /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		9B5A1EE3243284F300F066BB /* Package.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; tabWidth = 2; };
-		9B5A1EFB243528AA00F066BB /* InputObjectGenerationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputObjectGenerationTests.swift; sourceTree = "<group>"; };
-		9B5A1EFF2435356400F066BB /* ExpectedColorInputNoModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedColorInputNoModifier.swift; sourceTree = "<group>"; };
 		9B60204E23FDFA9F00D0C8E0 /* SQLiteCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCacheTests.swift; sourceTree = "<group>"; };
 		9B64F6752354D219002D1BB5 /* URL+QueryDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryDict.swift"; sourceTree = "<group>"; };
-		9B6835322460B32A00337AE6 /* ASTVariableType+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASTVariableType+TestHelpers.swift"; sourceTree = "<group>"; };
-		9B683537246310D400337AE6 /* ExpectedReviewInputNoModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedReviewInputNoModifier.swift; sourceTree = "<group>"; };
 		9B68353E2463481A00337AE6 /* ApolloUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B68354A2463498D00337AE6 /* Apollo-Target-ApolloUtils.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Apollo-Target-ApolloUtils.xcconfig"; sourceTree = "<group>"; };
-		9B68F03A240D8D1800E97318 /* CodegenExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodegenExtensionTests.swift; sourceTree = "<group>"; };
-		9B68F03C240ED3B300E97318 /* ASTCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTCondition.swift; sourceTree = "<group>"; };
-		9B68F03E240F3B0E00E97318 /* CodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGenerator.swift; sourceTree = "<group>"; };
-		9B68F04924130D6500E97318 /* EnumGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumGenerator.swift; sourceTree = "<group>"; };
-		9B68F04E2413271D00E97318 /* EnumGenerationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumGenerationTests.swift; sourceTree = "<group>"; };
-		9B68F0522415B1C800E97318 /* ExpectedEpisodeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEpisodeEnum.swift; sourceTree = "<group>"; };
 		9B68F0542416B33300E97318 /* LineByLineComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineByLineComparison.swift; sourceTree = "<group>"; };
-		9B68F0562416B5F700E97318 /* ExpectedEpisodeEnumNoDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEpisodeEnumNoDescription.swift; sourceTree = "<group>"; };
-		9B68F0582416BA7700E97318 /* ExpectedEnumWithNoCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEnumWithNoCases.swift; sourceTree = "<group>"; };
-		9B68F05A2416BCF100E97318 /* ExpectedEnumOmittingDeprecatedCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEnumOmittingDeprecatedCases.swift; sourceTree = "<group>"; };
-		9B68F05C2416BDCF00E97318 /* ExpectedEnumWithDeprecatedCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEnumWithDeprecatedCases.swift; sourceTree = "<group>"; };
-		9B68F05F2416F80C00E97318 /* ExpectedEnumWithDifferentCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEnumWithDifferentCases.swift; sourceTree = "<group>"; };
-		9B68F0612417002900E97318 /* InputObjectGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputObjectGenerator.swift; sourceTree = "<group>"; };
-		9B68F063241703B200E97318 /* ExpectedEnumWithSanitizedCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedEnumWithSanitizedCases.swift; sourceTree = "<group>"; };
-		9B68F066241AD98C00E97318 /* Dictionary+Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Apollo.swift"; sourceTree = "<group>"; };
-		9B68F06A241C643000E97318 /* ExpectedColorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedColorInput.swift; sourceTree = "<group>"; };
-		9B68F06C241C646700E97318 /* ExpectedReviewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectedReviewInput.swift; sourceTree = "<group>"; };
 		9B68F06E241C649E00E97318 /* GraphQLOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLOptional.swift; sourceTree = "<group>"; };
 		9B6CB23D238077B60007259D /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
 		9B708AAC2305884500604A11 /* ApolloClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientProtocol.swift; sourceTree = "<group>"; };
@@ -759,15 +642,6 @@
 		9BCF0CF123FC9F060031D2A2 /* StarWarsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarWarsAPI.h; sourceTree = "<group>"; };
 		9BCF0CFC23FC9F060031D2A2 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		9BCF0CFF23FC9F060031D2A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BD681262405F0CB000874CB /* ASTOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTOutput.swift; sourceTree = "<group>"; };
-		9BD681282405F149000874CB /* ASTTypeUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTTypeUsed.swift; sourceTree = "<group>"; };
-		9BD6812A2405F410000874CB /* ASTFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTFragment.swift; sourceTree = "<group>"; };
-		9BD6812E2405F665000874CB /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		9BD681352405F725000874CB /* JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
-		9BD681372405F7F6000874CB /* JSONTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestHelpers.swift; sourceTree = "<group>"; };
-		9BD681392405F95B000874CB /* ASTOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTOperation.swift; sourceTree = "<group>"; };
-		9BD6813C2405FAB7000874CB /* ASTField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTField.swift; sourceTree = "<group>"; };
-		9BD681412406F516000874CB /* ASTParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTParsingTests.swift; sourceTree = "<group>"; };
 		9BDE43D022C6655200FD7C7F /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		9BDE43DE22C6708600FD7C7F /* GraphQLHTTPRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLHTTPRequestError.swift; sourceTree = "<group>"; };
 		9BDF200C23FDC37600153E2B /* GitHubAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubAPI.h; sourceTree = "<group>"; };
@@ -870,15 +744,6 @@
 		DE0586322669948500265760 /* InputValue+Evaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputValue+Evaluation.swift"; sourceTree = "<group>"; };
 		DE0586382669985000265760 /* Dictionary+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Helpers.swift"; sourceTree = "<group>"; };
 		DE3C7973260A646300D2F4FF /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
-		DE3C79A9260A6ACD00D2F4FF /* AnimalKingdomAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalKingdomAPI.h; sourceTree = "<group>"; };
-		DE3C79AA260A6ACD00D2F4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE3C7A11260A6B9800D2F4FF /* AnimalKingdomAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimalKingdomAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE3C7AB8260A6D3E00D2F4FF /* PetDetails.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PetDetails.graphql; sourceTree = "<group>"; };
-		DE3C7AB9260A6D3E00D2F4FF /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
-		DE3C7ABA260A6D3E00D2F4FF /* WarmBloodedDetails.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WarmBloodedDetails.graphql; sourceTree = "<group>"; };
-		DE3C7ABB260A6D3E00D2F4FF /* HeightInMeters.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HeightInMeters.graphql; sourceTree = "<group>"; };
-		DE3C7ABC260A6D3E00D2F4FF /* AllAnimals.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllAnimals.graphql; sourceTree = "<group>"; };
-		DE3C7ABD260A6D3E00D2F4FF /* ClassroomPets.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ClassroomPets.graphql; sourceTree = "<group>"; };
 		DE3C7B10260A6FC900D2F4FF /* SelectionSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSet.swift; sourceTree = "<group>"; };
 		DE3C7B11260A6FC900D2F4FF /* ResponseDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseDict.swift; sourceTree = "<group>"; };
 		DE3C7B12260A6FC900D2F4FF /* FragmentProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FragmentProtocols.swift; sourceTree = "<group>"; };
@@ -914,7 +779,6 @@
 		DE6B160C26152D210068D642 /* Workspace-Packaging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Workspace-Packaging.xcconfig"; sourceTree = "<group>"; };
 		DE6B160D26152D210068D642 /* Workspace-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Workspace-Shared.xcconfig"; sourceTree = "<group>"; };
 		DE8C84F4268BC42100C54D02 /* DefaultWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWebSocket.swift; sourceTree = "<group>"; };
-		DEA34AF6260E821F00F95F86 /* Apollo-Target-AnimalKingdomAPI.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apollo-Target-AnimalKingdomAPI.xcconfig"; sourceTree = "<group>"; };
 		DECD46CF262F64D000924527 /* StarWarsApolloSchemaDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApolloSchemaDownloaderTests.swift; sourceTree = "<group>"; };
 		DECD490B262F81BF00924527 /* ApolloCodegenTestSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloCodegenTestSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD490D262F81BF00924527 /* ApolloCodegenTestSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApolloCodegenTestSupport.h; sourceTree = "<group>"; };
@@ -957,8 +821,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECD47C3262F779800924527 /* ApolloUtils.framework in Frameworks */,
-				9B47515D2575AA4A0001FB87 /* InflectorKit in Frameworks */,
-				9B68F04D2413239100E97318 /* Stencil in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1045,14 +907,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE3C7A06260A6B9800D2F4FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE3C7A94260A6C1000D2F4FF /* ApolloUtils.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE6B15A926152BE10068D642 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1089,7 +943,6 @@
 				9B7B6F55233C27A000F32205 /* Apollo-Target-ApolloCodegenLib.xcconfig */,
 				9B68354A2463498D00337AE6 /* Apollo-Target-ApolloUtils.xcconfig */,
 				DE0586222669793200265760 /* Apollo-Target-ApolloAPI.xcconfig */,
-				DEA34AF6260E821F00F95F86 /* Apollo-Target-AnimalKingdomAPI.xcconfig */,
 				9B4AA8AD239EFDC9003E1300 /* Apollo-Target-CodegenTests.xcconfig */,
 				90690D06224333DA00FC2E54 /* Apollo-Target-Framework.xcconfig */,
 				90690D2222433C2800FC2E54 /* Apollo-Target-GitHubAPI.xcconfig */,
@@ -1272,45 +1125,14 @@
 			path = Sources/UploadAPI;
 			sourceTree = SOURCE_ROOT;
 		};
-		9B3D70FF2488428A00D8BAF4 /* InterfaceEnum */ = {
-			isa = PBXGroup;
-			children = (
-				9B3D71002488429E00D8BAF4 /* ExpectedCharacterType.swift */,
-				9B3D7104248847D400D8BAF4 /* ExpectedSanitizedCharacterType.swift */,
-				9B3D71062488495900D8BAF4 /* ExpectedNoCasesCharacterType.swift */,
-				9B3D710824884A1500D8BAF4 /* ExpectedNoModifierCharacterType.swift */,
-			);
-			name = InterfaceEnum;
-			sourceTree = "<group>";
-		};
-		9B3D710D24884CE500D8BAF4 /* UnionEnum */ = {
-			isa = PBXGroup;
-			children = (
-				9B3D710E24884D7500D8BAF4 /* ExpectedSearchResultType.swift */,
-				9B3D711224889DB200D8BAF4 /* ExpectedSanitizedSearchResultType.swift */,
-				9B3D711424889EB000D8BAF4 /* ExpectedNoCasesSearchResultType.swift */,
-				9B3D711624889EF200D8BAF4 /* ExpectedNoModifierSearchResultType.swift */,
-			);
-			name = UnionEnum;
-			sourceTree = "<group>";
-		};
 		9B455CE82492D0A7002255A9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				9B455CE22492D0A3002255A9 /* ApolloExtension.swift */,
 				9B455CE42492D0A3002255A9 /* Collection+Apollo.swift */,
-				9B455CE32492D0A3002255A9 /* OptionalBoolean.swift */,
 				9B455CEA2492FB03002255A9 /* String+SHA.swift */,
 			);
 			name = Extensions;
-			sourceTree = "<group>";
-		};
-		9B4751BD2575BAFB0001FB87 /* Naming */ = {
-			isa = PBXGroup;
-			children = (
-				9B47516D2575AA690001FB87 /* Pluralizer.swift */,
-			);
-			name = Naming;
 			sourceTree = "<group>";
 		};
 		9B6835472463486200337AE6 /* ApolloUtils */ = {
@@ -1323,56 +1145,15 @@
 			path = Sources/ApolloUtils;
 			sourceTree = "<group>";
 		};
-		9B68F0512415B17B00E97318 /* ExpectedOutputs */ = {
-			isa = PBXGroup;
-			children = (
-				9B3D710D24884CE500D8BAF4 /* UnionEnum */,
-				9B3D70FF2488428A00D8BAF4 /* InterfaceEnum */,
-				9B68F069241C641600E97318 /* InputObject */,
-				9B68F05E2416BEA300E97318 /* Enum */,
-			);
-			name = ExpectedOutputs;
-			sourceTree = "<group>";
-		};
-		9B68F05E2416BEA300E97318 /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				9B68F0522415B1C800E97318 /* ExpectedEpisodeEnum.swift */,
-				9B68F0562416B5F700E97318 /* ExpectedEpisodeEnumNoDescription.swift */,
-				9B3D710A24884B2100D8BAF4 /* ExpectedEpisodeEnumWithoutModifier.swift */,
-				9B68F0582416BA7700E97318 /* ExpectedEnumWithNoCases.swift */,
-				9B68F05A2416BCF100E97318 /* ExpectedEnumOmittingDeprecatedCases.swift */,
-				9B68F05C2416BDCF00E97318 /* ExpectedEnumWithDeprecatedCases.swift */,
-				9B68F05F2416F80C00E97318 /* ExpectedEnumWithDifferentCases.swift */,
-				9B68F063241703B200E97318 /* ExpectedEnumWithSanitizedCases.swift */,
-			);
-			name = Enum;
-			sourceTree = "<group>";
-		};
-		9B68F069241C641600E97318 /* InputObject */ = {
-			isa = PBXGroup;
-			children = (
-				9B68F06A241C643000E97318 /* ExpectedColorInput.swift */,
-				9B5A1EFF2435356400F066BB /* ExpectedColorInputNoModifier.swift */,
-				9B68F06C241C646700E97318 /* ExpectedReviewInput.swift */,
-				9B683537246310D400337AE6 /* ExpectedReviewInputNoModifier.swift */,
-			);
-			name = InputObject;
-			sourceTree = "<group>";
-		};
 		9B7B6F50233C26E400F32205 /* ApolloCodegenLib */ = {
 			isa = PBXGroup;
 			children = (
 				9FE1E54C2588C5E000AA967E /* Frontend */,
-				9B4751BD2575BAFB0001FB87 /* Naming */,
 				9BCB585D240758B2002F766E /* Extensions */,
 				9BD681332405F6BB000874CB /* Codegen */,
 				9BD681322405F69C000874CB /* CLI */,
-				9BD681302405F676000874CB /* Output */,
-				9B8788702405F0150008789E /* Parsing */,
 				9BD681342405F6D1000874CB /* SchemaDownload */,
 				9B518C8A235F8B05004C426D /* ApolloFilePathHelper.swift */,
-				9BD6812E2405F665000874CB /* JSON.swift */,
 				9BAEEBF22346DDAD00808306 /* CodegenLogger.swift */,
 				9BE74D3C23FB4A8E006D354F /* FileFinder.swift */,
 				9B7B6F51233C26E400F32205 /* Info.plist */,
@@ -1425,47 +1206,18 @@
 			path = SourcePackages;
 			sourceTree = "<group>";
 		};
-		9B8788702405F0150008789E /* Parsing */ = {
-			isa = PBXGroup;
-			children = (
-				9B68F03C240ED3B300E97318 /* ASTCondition.swift */,
-				9B0E471D240B239D0093BDA7 /* ASTEnumValue.swift */,
-				9BD6813C2405FAB7000874CB /* ASTField.swift */,
-				9BD6812A2405F410000874CB /* ASTFragment.swift */,
-				9B3D70F6248833CB00D8BAF4 /* ASTInterfaceType.swift */,
-				9BD681392405F95B000874CB /* ASTOperation.swift */,
-				9BD681262405F0CB000874CB /* ASTOutput.swift */,
-				9BD681282405F149000874CB /* ASTTypeUsed.swift */,
-				9B3D70F82488340400D8BAF4 /* ASTUnionType.swift */,
-				9B0E4717240AF6D70093BDA7 /* ASTVariableType.swift */,
-			);
-			name = Parsing;
-			sourceTree = "<group>";
-		};
 		9BAEEC0A234BB95B00808306 /* ApolloCodegenTests */ = {
 			isa = PBXGroup;
 			children = (
 				9F1A96AE258F367100A06EEB /* Frontend */,
-				9B68F0512415B17B00E97318 /* ExpectedOutputs */,
 				9B8110A623A1994000688AC4 /* SourcePackages */,
-				9B6835322460B32A00337AE6 /* ASTVariableType+TestHelpers.swift */,
-				9BD681372405F7F6000874CB /* JSONTestHelpers.swift */,
-				9BD681412406F516000874CB /* ASTParsingTests.swift */,
 				9BAEEC16234C275600808306 /* ApolloSchemaTests.swift */,
 				9BAEEC18234C297800808306 /* ApolloCodegenTests.swift */,
 				9B518C88235F8AD4004C426D /* CLIDownloaderTests.swift */,
 				9BAEEC14234C132600808306 /* CLIExtractorTests.swift */,
-				9B68F03A240D8D1800E97318 /* CodegenExtensionTests.swift */,
-				9B68F04E2413271D00E97318 /* EnumGenerationTests.swift */,
-				9B5A1EFB243528AA00F066BB /* InputObjectGenerationTests.swift */,
-				9B3D71022488448F00D8BAF4 /* IntefaceEnumGenerationTests.swift */,
 				9BAEEC0D234BB95B00808306 /* FileManagerExtensionsTests.swift */,
 				9B68F0542416B33300E97318 /* LineByLineComparison.swift */,
-				9BD681352405F725000874CB /* JSONTests.swift */,
-				9B4751AC2575B5070001FB87 /* PluralizerTests.swift */,
 				9B8C3FB4248DA3E000707B13 /* URLExtensionsTests.swift */,
-				9B3D711024884E1B00D8BAF4 /* UnionEnumGenerationTests.swift */,
-				9B0E4719240AFA060093BDA7 /* VariableToSwiftTypeTests.swift */,
 				9BAEEC0C234BB95B00808306 /* Info.plist */,
 			);
 			path = ApolloCodegenTests;
@@ -1489,10 +1241,8 @@
 		9BCB585D240758B2002F766E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9B68F066241AD98C00E97318 /* Dictionary+Apollo.swift */,
 				9B7B6F68233C2C0C00F32205 /* FileManager+Apollo.swift */,
 				9BAEEBF62346F0A000808306 /* StaticString+Apollo.swift */,
-				9B0E471B240B167C0093BDA7 /* String+Apollo.swift */,
 				9B8C3FB1248DA2EA00707B13 /* URL+Apollo.swift */,
 			);
 			name = Extensions;
@@ -1532,18 +1282,6 @@
 			name = StarWarsAPI;
 			path = Sources/StarWarsAPI;
 			sourceTree = SOURCE_ROOT;
-		};
-		9BD681302405F676000874CB /* Output */ = {
-			isa = PBXGroup;
-			children = (
-				9B68F03E240F3B0E00E97318 /* CodeGenerator.swift */,
-				9B68F04924130D6500E97318 /* EnumGenerator.swift */,
-				9B68F0612417002900E97318 /* InputObjectGenerator.swift */,
-				9B3D70FB2488388300D8BAF4 /* InterfaceEnumGenerator.swift */,
-				9B3D70FD2488388E00D8BAF4 /* UnionEnumGenerator.swift */,
-			);
-			name = Output;
-			sourceTree = "<group>";
 		};
 		9BD681322405F69C000874CB /* CLI */ = {
 			isa = PBXGroup;
@@ -1660,7 +1398,6 @@
 				9BDF200723FDC37600153E2B /* GitHubAPI */,
 				9BCF0CE923FC9F060031D2A2 /* StarWarsAPI */,
 				9B2DFBC424E1FA3E00ED3AE6 /* UploadAPI */,
-				DE3C79A8260A6ACD00D2F4FF /* AnimalKingdomAPI */,
 				DECD490C262F81BF00924527 /* ApolloCodegenTestSupport */,
 				9B7BDAF923FDEE8A00ACD198 /* Frameworks */,
 				90690D04224333DA00FC2E54 /* Configuration */,
@@ -1686,7 +1423,6 @@
 				9B2DFBB624E1FA0D00ED3AE6 /* UploadAPI.framework */,
 				9B2DFBCA24E2016800ED3AE6 /* UploadAPI.framework */,
 				9F54C8B4255D760B0065AFD6 /* ApolloPerformanceTests.xctest */,
-				DE3C7A11260A6B9800D2F4FF /* AnimalKingdomAPI.framework */,
 				DE6B15AC26152BE10068D642 /* ApolloServerIntegrationTests.xctest */,
 				DECD490B262F81BF00924527 /* ApolloCodegenTestSupport.framework */,
 				DE058621266978A100265760 /* ApolloAPI.framework */,
@@ -1855,30 +1591,6 @@
 			);
 			name = ApolloAPI;
 			path = Sources/ApolloAPI;
-			sourceTree = "<group>";
-		};
-		DE3C79A8260A6ACD00D2F4FF /* AnimalKingdomAPI */ = {
-			isa = PBXGroup;
-			children = (
-				DE3C79A9260A6ACD00D2F4FF /* AnimalKingdomAPI.h */,
-				DE3C79AA260A6ACD00D2F4FF /* Info.plist */,
-				DE3C7AB7260A6D3E00D2F4FF /* graphql */,
-			);
-			name = AnimalKingdomAPI;
-			path = Sources/AnimalKingdomAPI;
-			sourceTree = "<group>";
-		};
-		DE3C7AB7260A6D3E00D2F4FF /* graphql */ = {
-			isa = PBXGroup;
-			children = (
-				DE3C7AB8260A6D3E00D2F4FF /* PetDetails.graphql */,
-				DE3C7AB9260A6D3E00D2F4FF /* schema.graphqls */,
-				DE3C7ABA260A6D3E00D2F4FF /* WarmBloodedDetails.graphql */,
-				DE3C7ABB260A6D3E00D2F4FF /* HeightInMeters.graphql */,
-				DE3C7ABC260A6D3E00D2F4FF /* AllAnimals.graphql */,
-				DE3C7ABD260A6D3E00D2F4FF /* ClassroomPets.graphql */,
-			);
-			path = graphql;
 			sourceTree = "<group>";
 		};
 		DE3C7B0F260A6F7F00D2F4FF /* CodegenV1 */ = {
@@ -2086,14 +1798,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE3C7A08260A6B9800D2F4FF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE3C7B4A260A73D800D2F4FF /* AnimalKingdomAPI.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DECD4906262F81BF00924527 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2155,14 +1859,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				DECD4873262F7A7100924527 /* PBXTargetDependency */,
-				DECD4871262F7A6E00924527 /* PBXTargetDependency */,
 				9B683549246348CB00337AE6 /* PBXTargetDependency */,
 			);
 			name = ApolloCodegenLib;
 			packageProductDependencies = (
-				9B68F04C2413239100E97318 /* Stencil */,
-				9B47515C2575AA4A0001FB87 /* InflectorKit */,
 			);
 			productName = ApolloCodegenLib;
 			productReference = 9B7B6F47233C26D100F32205 /* ApolloCodegenLib.framework */;
@@ -2380,26 +2080,6 @@
 			productReference = DE058621266978A100265760 /* ApolloAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DE3C7A00260A6B9800D2F4FF /* AnimalKingdomAPI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE3C7A0D260A6B9800D2F4FF /* Build configuration list for PBXNativeTarget "AnimalKingdomAPI" */;
-			buildPhases = (
-				DE3C7A04260A6B9800D2F4FF /* Sources */,
-				DE3C7A06260A6B9800D2F4FF /* Frameworks */,
-				DE3C7A08260A6B9800D2F4FF /* Headers */,
-				DE3C7A0A260A6B9800D2F4FF /* Resources */,
-				DE3C7A98260A6C1000D2F4FF /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE3C7A97260A6C1000D2F4FF /* PBXTargetDependency */,
-			);
-			name = AnimalKingdomAPI;
-			productName = StarWarsAPI;
-			productReference = DE3C7A11260A6B9800D2F4FF /* AnimalKingdomAPI.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		DE6B15AB26152BE10068D642 /* ApolloServerIntegrationTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE6B15B726152BE10068D642 /* Build configuration list for PBXNativeTarget "ApolloServerIntegrationTests" */;
@@ -2523,8 +2203,6 @@
 			mainGroup = 9FC7503A1D2A532C00458D91;
 			packageReferences = (
 				9B7BDAF423FDEE2600ACD198 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
-				9B68F04B2413239100E97318 /* XCRemoteSwiftPackageReference "Stencil" */,
-				9B47515B2575AA4A0001FB87 /* XCRemoteSwiftPackageReference "InflectorKit" */,
 				DE8C84F2268BBF8000C54D02 /* XCRemoteSwiftPackageReference "Starscream" */,
 			);
 			productRefGroup = 9FC750451D2A532C00458D91 /* Products */;
@@ -2540,7 +2218,6 @@
 				9F54C8B3255D760B0065AFD6 /* ApolloPerformanceTests */,
 				DE6B15AB26152BE10068D642 /* ApolloServerIntegrationTests */,
 				9F8A95771EC0FC1200304A2D /* ApolloTestSupport */,
-				DE3C7A00260A6B9800D2F4FF /* AnimalKingdomAPI */,
 				9FCE2CF91E6C213D00E34457 /* StarWarsAPI */,
 				9FACA9B71F42E67200AE2DBD /* GitHubAPI */,
 				9B2DFBB524E1FA0D00ED3AE6 /* UploadAPI */,
@@ -2630,14 +2307,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE3C7A0A260A6B9800D2F4FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE3C7B4B260A73F900D2F4FF /* schema.graphqls in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2732,7 +2401,6 @@
 			files = (
 				9B455CE52492D0A3002255A9 /* ApolloExtension.swift in Sources */,
 				9B455CEB2492FB03002255A9 /* String+SHA.swift in Sources */,
-				9B455CE62492D0A3002255A9 /* OptionalBoolean.swift in Sources */,
 				9B455CDF2492D05E002255A9 /* Atomic.swift in Sources */,
 				9B455CE72492D0A3002255A9 /* Collection+Apollo.swift in Sources */,
 			);
@@ -2743,46 +2411,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAEEBEE2346644600808306 /* ApolloSchemaOptions.swift in Sources */,
-				9B68F03D240ED3B300E97318 /* ASTCondition.swift in Sources */,
 				9BC2D9D3233C6EF0007BD083 /* Basher.swift in Sources */,
 				9B8C3FB3248DA2FE00707B13 /* URL+Apollo.swift in Sources */,
 				9BAEEBEF2346644B00808306 /* ApolloSchemaDownloader.swift in Sources */,
 				9F1A966F258F34BB00A06EEB /* JavaScriptBridge.swift in Sources */,
 				9BAEEBF72346F0A000808306 /* StaticString+Apollo.swift in Sources */,
 				9F62DFD02590710E00E6E808 /* GraphQLSource.swift in Sources */,
-				9B68F03F240F3B0E00E97318 /* CodeGenerator.swift in Sources */,
-				9B0E4718240AF6D70093BDA7 /* ASTVariableType.swift in Sources */,
-				9B0E471C240B167C0093BDA7 /* String+Apollo.swift in Sources */,
 				9BAEEBF32346DDAD00808306 /* CodegenLogger.swift in Sources */,
 				9F628EB52593651B00F94F9D /* GraphQLValue.swift in Sources */,
-				9B47518D2575AA850001FB87 /* Pluralizer.swift in Sources */,
-				9B3D70FE2488388E00D8BAF4 /* UnionEnumGenerator.swift in Sources */,
 				9B518C8C235F8B5F004C426D /* ApolloFilePathHelper.swift in Sources */,
 				9F628E9525935BE600F94F9D /* GraphQLType.swift in Sources */,
 				9B518C87235F819E004C426D /* CLIDownloader.swift in Sources */,
-				9B3D70FA2488340C00D8BAF4 /* ASTInterfaceType.swift in Sources */,
 				9F1A966D258F34BB00A06EEB /* CompilationResult.swift in Sources */,
 				9BAEEBF123467E0A00808306 /* ApolloCLI.swift in Sources */,
-				9BD6812B2405F410000874CB /* ASTFragment.swift in Sources */,
-				9B68F04A24130D6500E97318 /* EnumGenerator.swift in Sources */,
-				9B68F06524198D1000E97318 /* InputObjectGenerator.swift in Sources */,
 				9B7B6F69233C2C0C00F32205 /* FileManager+Apollo.swift in Sources */,
-				9B3D70F92488340400D8BAF4 /* ASTUnionType.swift in Sources */,
 				9F1A966C258F34BB00A06EEB /* GraphQLSchema.swift in Sources */,
 				9BE74D3D23FB4A8E006D354F /* FileFinder.swift in Sources */,
-				9B68F068241ADA9D00E97318 /* Dictionary+Apollo.swift in Sources */,
 				9B7B6F59233C287200F32205 /* ApolloCodegen.swift in Sources */,
-				9BD6813E2405FAC8000874CB /* ASTField.swift in Sources */,
-				9BD681272405F0CB000874CB /* ASTOutput.swift in Sources */,
-				9B0E471E240B239D0093BDA7 /* ASTEnumValue.swift in Sources */,
 				9F62E03F2590896400E6E808 /* GraphQLError.swift in Sources */,
 				9B7B6F5A233C287200F32205 /* ApolloCodegenOptions.swift in Sources */,
 				9F1A966B258F34BB00A06EEB /* ApolloCodegenFrontend.swift in Sources */,
 				9BAEEBF52346E90700808306 /* CLIExtractor.swift in Sources */,
-				9B3D70FC2488388300D8BAF4 /* InterfaceEnumGenerator.swift in Sources */,
-				9BD6813B2405FA56000874CB /* ASTOperation.swift in Sources */,
-				9BD681292405F149000874CB /* ASTTypeUsed.swift in Sources */,
-				9BD6812F2405F665000874CB /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2815,49 +2464,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B68F0572416B5F700E97318 /* ExpectedEpisodeEnumNoDescription.swift in Sources */,
-				9B3FB4F124D9ED01002C8B1B /* ExpectedCharacterType.swift in Sources */,
-				9B21FD782424305700998B5C /* ExpectedEnumWithDifferentCases.swift in Sources */,
-				9B3D710F24884D7500D8BAF4 /* ExpectedSearchResultType.swift in Sources */,
-				9B3D710B24884B2100D8BAF4 /* ExpectedEpisodeEnumWithoutModifier.swift in Sources */,
-				9B6835342460B47900337AE6 /* ASTVariableType+TestHelpers.swift in Sources */,
-				9B3D71032488448F00D8BAF4 /* IntefaceEnumGenerationTests.swift in Sources */,
-				9B5A1F002435356400F066BB /* ExpectedColorInputNoModifier.swift in Sources */,
-				9B68F04F2413271D00E97318 /* EnumGenerationTests.swift in Sources */,
 				9BAEEC10234BB95B00808306 /* FileManagerExtensionsTests.swift in Sources */,
-				9B21FD792424305E00998B5C /* ExpectedEnumWithSanitizedCases.swift in Sources */,
-				9B68F0532415B1C800E97318 /* ExpectedEpisodeEnum.swift in Sources */,
 				9BAEEC17234C275600808306 /* ApolloSchemaTests.swift in Sources */,
 				9F62DFAE2590557F00E6E808 /* DocumentParsingAndValidationTests.swift in Sources */,
-				9B5A1EFC243528AA00F066BB /* InputObjectGenerationTests.swift in Sources */,
 				9F62E0102590728000E6E808 /* CompilationTests.swift in Sources */,
-				9B3D7105248847D400D8BAF4 /* ExpectedSanitizedCharacterType.swift in Sources */,
-				9B0E471A240AFA060093BDA7 /* VariableToSwiftTypeTests.swift in Sources */,
 				9F62DFBF2590560000E6E808 /* Helpers.swift in Sources */,
 				9B8C3FB5248DA3E000707B13 /* URLExtensionsTests.swift in Sources */,
-				9B5A1EFD24352AC100F066BB /* ExpectedReviewInput.swift in Sources */,
-				9B68F0592416BA7700E97318 /* ExpectedEnumWithNoCases.swift in Sources */,
 				9B518C8D235F8B9E004C426D /* CLIDownloaderTests.swift in Sources */,
-				9B68F05D2416BDCF00E97318 /* ExpectedEnumWithDeprecatedCases.swift in Sources */,
-				9B68F05B2416BCF100E97318 /* ExpectedEnumOmittingDeprecatedCases.swift in Sources */,
-				9B68F03B240D8D1800E97318 /* CodegenExtensionTests.swift in Sources */,
-				9B683538246310D400337AE6 /* ExpectedReviewInputNoModifier.swift in Sources */,
-				9B3D71072488495900D8BAF4 /* ExpectedNoCasesCharacterType.swift in Sources */,
-				9B3D711724889EF200D8BAF4 /* ExpectedNoModifierSearchResultType.swift in Sources */,
-				9B3D711324889DB200D8BAF4 /* ExpectedSanitizedSearchResultType.swift in Sources */,
-				9BD681422406F516000874CB /* ASTParsingTests.swift in Sources */,
 				9FDE0731258F3AA100DC0CA5 /* SchemaLoadingTests.swift in Sources */,
 				9F62DF8E2590539A00E6E808 /* SchemaIntrospectionTests.swift in Sources */,
-				9B3D711124884E1B00D8BAF4 /* UnionEnumGenerationTests.swift in Sources */,
-				9B3D710924884A1500D8BAF4 /* ExpectedNoModifierCharacterType.swift in Sources */,
-				9B3D711524889EB000D8BAF4 /* ExpectedNoCasesSearchResultType.swift in Sources */,
 				9B68F0552416B33300E97318 /* LineByLineComparison.swift in Sources */,
 				9BAEEC15234C132600808306 /* CLIExtractorTests.swift in Sources */,
-				9B4751AD2575B5070001FB87 /* PluralizerTests.swift in Sources */,
-				9B5A1EFE24352AED00F066BB /* ExpectedColorInput.swift in Sources */,
-				9BD681382405F7F6000874CB /* JSONTestHelpers.swift in Sources */,
 				9BAEEC19234C297800808306 /* ApolloCodegenTests.swift in Sources */,
-				9BD681362405F725000874CB /* JSONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3039,13 +2657,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE3C7A04260A6B9800D2F4FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE6B15A826152BE10068D642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3173,11 +2784,6 @@
 			target = DE058606266978A100265760 /* ApolloAPI */;
 			targetProxy = DE05862726697B1D00265760 /* PBXContainerItemProxy */;
 		};
-		DE3C7A97260A6C1000D2F4FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B68353D2463481A00337AE6 /* ApolloUtils */;
-			targetProxy = DE3C7A96260A6C1000D2F4FF /* PBXContainerItemProxy */;
-		};
 		DE6B15B326152BE10068D642 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9FC750431D2A532C00458D91 /* Apollo */;
@@ -3192,14 +2798,6 @@
 			isa = PBXTargetDependency;
 			target = 9B2DFBB524E1FA0D00ED3AE6 /* UploadAPI */;
 			targetProxy = DECD4734262F668200924527 /* PBXContainerItemProxy */;
-		};
-		DECD4871262F7A6E00924527 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = DECD4870262F7A6E00924527 /* InflectorKit */;
-		};
-		DECD4873262F7A7100924527 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = DECD4872262F7A7100924527 /* Stencil */;
 		};
 		DECD498E262F840100924527 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3552,27 +3150,6 @@
 			};
 			name = PerformanceTesting;
 		};
-		DE3C7A0E260A6B9800D2F4FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA34AF6260E821F00F95F86 /* Apollo-Target-AnimalKingdomAPI.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		DE3C7A0F260A6B9800D2F4FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA34AF6260E821F00F95F86 /* Apollo-Target-AnimalKingdomAPI.xcconfig */;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		DE3C7A10260A6B9800D2F4FF /* PerformanceTesting */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA34AF6260E821F00F95F86 /* Apollo-Target-AnimalKingdomAPI.xcconfig */;
-			buildSettings = {
-			};
-			name = PerformanceTesting;
-		};
 		DE6B15B426152BE10068D642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE6B15E826152CD80068D642 /* Apollo-Target-ServerIntegrationTests.xcconfig */;
@@ -3758,16 +3335,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE3C7A0D260A6B9800D2F4FF /* Build configuration list for PBXNativeTarget "AnimalKingdomAPI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE3C7A0E260A6B9800D2F4FF /* Debug */,
-				DE3C7A0F260A6B9800D2F4FF /* Release */,
-				DE3C7A10260A6B9800D2F4FF /* PerformanceTesting */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DE6B15B726152BE10068D642 /* Build configuration list for PBXNativeTarget "ApolloServerIntegrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3791,22 +3358,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9B47515B2575AA4A0001FB87 /* XCRemoteSwiftPackageReference "InflectorKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apollographql/InflectorKit.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.0.2;
-			};
-		};
-		9B68F04B2413239100E97318 /* XCRemoteSwiftPackageReference "Stencil" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stencilproject/Stencil.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.14.0;
-			};
-		};
 		9B7BDAAA23FDEA7B00ACD198 /* XCRemoteSwiftPackageReference "Starscream" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/daltoniam/Starscream.git";
@@ -3834,16 +3385,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B47515C2575AA4A0001FB87 /* InflectorKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B47515B2575AA4A0001FB87 /* XCRemoteSwiftPackageReference "InflectorKit" */;
-			productName = InflectorKit;
-		};
-		9B68F04C2413239100E97318 /* Stencil */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B68F04B2413239100E97318 /* XCRemoteSwiftPackageReference "Stencil" */;
-			productName = Stencil;
-		};
 		9B7BDAF523FDEE2600ACD198 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9B7BDAF423FDEE2600ACD198 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
@@ -3868,16 +3409,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE8C84F2268BBF8000C54D02 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
-		};
-		DECD4870262F7A6E00924527 /* InflectorKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B47515B2575AA4A0001FB87 /* XCRemoteSwiftPackageReference "InflectorKit" */;
-			productName = InflectorKit;
-		};
-		DECD4872262F7A7100924527 /* Stencil */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B68F04B2413239100E97318 /* XCRemoteSwiftPackageReference "Stencil" */;
-			productName = Stencil;
 		};
 		DED45E95261B9EE30086EF63 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -42,12 +42,6 @@ let package = Package(
     .package(
       url: "https://github.com/apollographql/Starscream",
       .upToNextMinor(from: "3.1.2")),
-    .package(
-      url: "https://github.com/stencilproject/Stencil.git",
-      .upToNextMinor(from: "0.14.0")),
-    .package(
-      url: "https://github.com/apollographql/InflectorKit",
-      .upToNextMinor(from: "0.0.2")),
   ],
   targets: [
     .target(
@@ -76,8 +70,6 @@ let package = Package(
       name: "ApolloCodegenLib",
       dependencies: [
         "ApolloUtils",
-        .product(name: "InflectorKit", package: "InflectorKit"),
-        .product(name: "Stencil", package: "Stencil"),
       ],
       exclude: [
         "Info.plist",

@@ -1,3 +1,0 @@
-#include "../Shared/Workspace-Universal-Framework.xcconfig"
-
-INFOPLIST_FILE = Sources/AnimalKingdomAPI/Info.plist

@@ -1,7 +1,0 @@
-fragment PetDetails on Pet {
-  humanName
-  favoriteToy
-  owner {
-    firstName
-  }
-}

@@ -1,5 +1,0 @@
-fragment HeightInMeters on Animal {
-  height {
-    meters
-  }
-}
